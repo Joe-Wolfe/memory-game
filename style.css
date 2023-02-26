@@ -1,0 +1,31 @@
+#game div {
+  border: 1px solid black;
+  width: 1fr;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+}
+
+#game{
+  display: grid;
+  grid-template-columns:auto auto auto auto auto;
+}
+
+h1{
+  text-align: center;
+}
+
+#info{
+  justify-content: center;
+  height: 75px;
+  text-align: center;
+}
+
+#start-button{
+  width: 200px;
+  height: 75px;
+}
+
+p{
+  font-size: 30px;
+}
